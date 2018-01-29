@@ -10,7 +10,7 @@
 <%@ page import="com.mytechnopal.webcontrol.*" %>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 	<title><%=SettingsUtil.OWNER_CODE.equalsIgnoreCase(SettingsUtil.OWNER_CODE_FK)?"Demo":SettingsUtil.OWNER_CODE%> - FaceKeeper</title>
 	<script src="common/jquery-latest.js"></script>
 	<script type="text/javascript" src="common/webcam/webcam.js"></script>
@@ -18,7 +18,7 @@
 	<!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.4 -->
-    <link href="common/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="common/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />s
 	<jsp:include flush="true" page="css.jsp"></jsp:include>
 </head>
 
